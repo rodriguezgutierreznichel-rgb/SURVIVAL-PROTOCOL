@@ -47,6 +47,7 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
+            Debug.Log("Te paras");
             animator.SetBool("RUN", false);
         }
     }
